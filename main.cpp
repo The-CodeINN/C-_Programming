@@ -1,6 +1,8 @@
+// This is the iostream header file
 #include <iostream>
 
 int main(){
-    auto result = (10 <=> 20) > 0;
-    std::cout << result << std::endl;
+    // Print the string "Hello World" to the console
+    std::cout << "Hello world!" << std::endl;
+    return 0;
 }
